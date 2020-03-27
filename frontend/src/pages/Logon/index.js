@@ -11,7 +11,7 @@ import heroesImg from '../../assets/heroes.png'
 
 export default function Logon(){
     const[ id, setId] = useState('');
-    const history = useHistory();
+    const history = useHistory();//apenas para mover o usuário para outra página
 
     async function handleLogin(e){
         e.preventDefault();
